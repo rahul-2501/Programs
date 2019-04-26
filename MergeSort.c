@@ -78,8 +78,7 @@ scanf("%d",&a[i]);
 }
 int left=0;
 int right=n-1;
-//int n;
-//n=sizeof(a)/sizeof(a[0]);
+
 ms(a,temp,left,right);
 
 for(int i=0;i<n;i++)
