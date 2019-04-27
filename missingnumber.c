@@ -1,29 +1,30 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
 	
 
-	 long int m;       
-	   scanf("%li",&m);  // get the size of array 
- 	   long int a[m-1];  // initialize the array
-	   static long int temp[10000000];
-	   for(long int i=0;i<m-1;i++)
+	   int m;       
+	   scanf("%d",&m);  // get the size of array 
+ 	   int a[m-1];  // initialize the array
+	   static  int temp[1000];
+	   for(int i=0;i<m-1;i++)
 	   {
-	       scanf("%li",&a[i]);
+	       scanf("%d",&a[i]);
 	   }
-	   for(long int i=0;i<m-1;i++)
+	   for(int i=0;i<m-1;i++)
 	   {
 	       temp[a[i]-1]=1;
-	       }
+	   }
 	   
-	   for(long int i=0;i<m;i++)
-	       {
+	   for(int i=0;i<m;i++)
+           {
 	           if(temp[i]!=1)
 	           {
-	           printf("the missing number is:%li \n",(i+1));
+	           printf("the missing number is:%d \n",(i+1));
 	           }
 	           
-	       }
+           }
 	
 	return 0;
 }
