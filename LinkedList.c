@@ -1,3 +1,5 @@
+/*implementation of linked list which performs only insert and display */
+
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct node{
