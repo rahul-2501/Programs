@@ -34,5 +34,5 @@ int main()
     5
     1 5 3 2
     
-    the missing number is: 2
+    the missing number is: 4
 */
