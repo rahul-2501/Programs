@@ -29,8 +29,8 @@ public static int BinarySearch(int a[],int num,int left,int right )
 	{
          int a[]= {1,4,23,35,58,79,123,135,144,147,178,189};
          
-                    System.out.println(BinarySearch(a,23,0,11));   //returns 23
-                     System.out.println(BinarySearch(a,60,0,11));  //returns -1
+                    System.out.println(BinarySearch(a,23,0,a.length-1));   //returns 23
+                     System.out.println(BinarySearch(a,60,0,a.length-1));  //returns -1
 		  
 		
 	}
