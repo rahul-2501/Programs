@@ -66,7 +66,7 @@ class wordManipulate {
       availableLetters[letters[i]]++;
     }
     int maxLength = 0;
-    string ans;
+    string answer;
     for (int i = 0; i < wordlist.size(); i++) {
       bool properWord = true;
       map < char, int > currentWordLetters;
@@ -91,12 +91,12 @@ class wordManipulate {
       if (properWord) {
         if (s.size() > maxLength) {
           maxLength = s.size();
-          ans = s;
+          answer = s;
         }
       }
 
     }
-    return ans;
+    return answer;
 
   }
 };
